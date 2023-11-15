@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/style/style.css">
+    <title>Procedure International Journal of Science and Technology</title>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <div class="site-header-inner">
+                <div class="logo">
+                    <a href="https://www.pijst.com/"><img src="assests/image/logo/logo.png" alt="institute-of-science-and-technology-development-logo"></a>
+                </div>
+                <div class="main-title">
+                    <div class="title">
+                        Procedure International Journal of Science and Technology
+                    </div>
+                    <div class="tagline">
+                        International Open Access, Peer-reviewed & Refereed Journal | ISSN:
+                    </div>
+                    <div class="sub-tagline">
+                        (Multidisciplinary, Monthly, Multilanguage)
+                    </div>
+                </div>
+            </div>
+            <div class="site-header-navbar">
+                <div class="topnav" id="myTopnav">
+                    <a href="https://www.pijst.com/">Home</a>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="#">PIJST</a>
+                        <div class="dropdown-content">
+                            <a href="/about-the-journal.html">About The Journal</a>
+                            <a href="/research-area.html">Research Area</a>
+                            <a href="/publication-fee.html">Publication Fee</a>
+                            <a href="/peer-review-process.html">Peer Review Process</a>
+                            <a href="/privacy-statement.html">Privacy Statement</a>
+                            <a href="/reviewers-guidelines.html">Reviewer Guidelines</a>
+                            <a href="/publication-ethics.html">Publication Ethics</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="#">Editorial Board</a>
+                        <div class="dropdown-content">
+                            <a href="/list-of-members.html">List of Members</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="#">For Author</a>
+                        <div class="dropdown-content">
+                            <a href="/author-guidlinnes.html">Author Guidelines</a>
+                            <a href="/submit-paper-online.html">Submit Your Paper Online</a>
+                            <a href="/research-area.html">Research Area</a>
+                            <a href="/publication-fee.html">Publication Fee</a>
+                            <a href="/assests/forms/Paper Template Format.pdf" target="_blank">Paper Template Format</a>
+                            <a href="/assests/forms/Undertaking by author form.pdf" target="_blank">Undertaking Form</a>
+                            <a href="/assests/forms/Copyright Agrement Form.pdf" target="_blank">Copyright Form</a>
+                        </div>
+                    </div>
+                    <a href="/current-issue-archives.html">Current Issue-Archives</a>
+                    <a href="/conferences-special-issue.html">Conferences/ Special Issue</a>
+                    <a href="/contact-us.html">Contact Us</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="body-container">
+            <div class="left-sidebar">
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/call-for-paper.html">Call For Paper</a>
+                    </div>
+                    <div class="side-body">
+                        <span> <b>Issue:</b> </span>
+                        <span> <b>Volume:</b> </span>
+                        <span> <b>Volume: | Issue:</b> </span>
+                        <span> <b>Last Date:</b> </span>
+                    </div>
+                    <div class="block-head">
+                        <a href="/submit-paper-online.html">Submit Paper Online</a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/research-area.html">Research Area </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/publication-fee.html">Publication Fee </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/peer-review-process.html">Peer Review Process </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/publication-ethics.html">Publication Ethics </a>
+                    </div>
+                </div>
+            </div>
+            <div class="body-content">
+                <div class="hero">
+                    <h1 class="page-title">
+                        Submit Your Paper Online (PIJST)
+                    </h1>                        
+                </div>
+
+                <div class="content">
+                    <h2>
+                        Paper Details
+                    </h2>
+                    <div class="paper-form">
+                        <div class="p_form">
+                            <form action="scripts/php/submit_mail.php" id="submit-paper" method="post" enctype="multipart/form-data">
+                                <div class="form-block-paper">
+                                <div class="input-block">
+                                    <label for="paper-title">Paper Title* :</label>
+                                    <input type="text" id="paper-title" name="paper-title" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="author">Author(s) Name* :</label>
+                                    <input type="text" id="author" name="author" required>
+                                    <br>
+                                    <span class="hint">Hint- Authors name should be comma (,) separated</span>
+                                </div>
+                                <div class="input-block">
+                                    <label for="research-area">Research Area/ Subject* :</label>
+                                    <input type="text" id="research-area" name="research-area" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="abstract">Abstract* :</label>
+                                    <textarea name="abstract" id="abstract" cols="30" rows="3 "></textarea>
+                                </div>
+                                <div class="input-block">
+                                    <label for="file">Upload File* :</label>
+                                    <input type="file" name="file" id="file" accept=".doc, .docx">
+                                    <br>
+                                    <span class="hint">Note: Upload only MS Word file. </span>
+                                </div>
+                                </div>
+                                <h2>
+                                    Authors/ Co-Authors Details
+                                </h2>
+                                <div class="form-block-paper">
+                                    <h3 class="f-head">Authors Details:</h3>
+                                <div class="input-block">
+                                    <label for="name">Name* :</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="designation">Designation* :</label>
+                                    <input type="text" id="designation" name="designation" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="organization">Institute/Organization* :</label>
+                                    <input type="text" id="organization" name="organization" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="email">Email Id* :</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="mobile">Mobile No.* :</label>
+                                    <input type="tel" id="mobile" name="mobile" required>
+                                </div>
+                                <br>
+                                <h3 class="f-head">Co-Authors 1:</h3>
+                                <div class="input-block">
+                                    <label for="co-author-a-name">Name :</label>
+                                    <input type="text" id="co-author-a-name" name="co-author-a-name">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-a-designation">Designation :</label>
+                                    <input type="text" id="co-author-a-designation" name="co-author-a-designation">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-a-organization">Institute/Organization :</label>
+                                    <input type="text" id="co-author-a-organization" name="co-author-a-organization">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-a-email">Email Id :</label>
+                                    <input type="email" id="co-author-a-email" name="co-author-a-email">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-a-mobile">Mobile No. :</label>
+                                    <input type="tel" id="co-author-a-mobile" name="co-author-a-mobile">
+                                </div>
+                                <br>
+                                <h3 class="f-head">Co-Authors 2:</h3>
+                                <div class="input-block">
+                                    <label for="co-author-b-name">Name :</label>
+                                    <input type="text" id="co-author-b-name" name="co-author-b-name">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-b-designation">Designation :</label>
+                                    <input type="text" id="co-author-b-designation" name="co-author-b-designation">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-b-organization">Institute/Organization :</label>
+                                    <input type="text" id="co-author-b-organization" name="co-author-b-organization">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-b-email">Email Id :</label>
+                                    <input type="email" id="co-author-b-email" name="co-author-b-email">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-b-mobile">Mobile No. :</label>
+                                    <input type="tel" id="co-author-b-mobile" name="co-author-b-mobile">
+                                </div>
+                                <br>
+                                <h3 class="f-head">Co-Authors 3:</h3>
+                                <div class="input-block">
+                                    <label for="co-author-c-name">Name :</label>
+                                    <input type="text" id="co-author-c-name" name="co-author-c-name">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-c-designation">Designation :</label>
+                                    <input type="text" id="co-author-c-designation" name="co-author-c-designation">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-c-organization">Institute/Organization :</label>
+                                    <input type="text" id="co-author-c-organization" name="co-author-c-organization">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-c-email">Email Id :</label>
+                                    <input type="email" id="co-author-c-email" name="co-author-c-email">
+                                </div>
+                                <div class="input-block">
+                                    <label for="co-author-c-mobile">Mobile No. :</label>
+                                    <input type="tel" id="co-author-c-mobile" name="co-author-c-mobile">
+                                </div>
+                                </div>
+                                <div class="form-block-paper">
+                                    <h3>Address of Communication:</h3>
+                                <div class="input-block">
+                                    <label for="address">Address Line* 1 :</label>
+                                    <input type="text" id="address" name="address" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="address-a">Address Line 2 :</label>
+                                    <input type="text" id="address-a" name="address-a">
+                                </div>
+                                <div class="input-block">
+                                    <label for="city">City/District* :</label>
+                                    <input type="text" id="city" name="city" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="state">State* :</label>
+                                    <input type="text" id="state" name="state" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="country">Country:* :</label>
+                                    <input type="text" id="country" name="country" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="pincode">Postal code* :</label>
+                                    <input type="text" id="pincode" name="pincode" required>
+                                </div>
+                                <div class="input-block">
+                                    <label for="captcha">Captcha* : (2+3=?)</label>
+                                    <input type="text" id="captcha" name="captcha" required>
+                                </div>
+                                <br>
+                                <div style="text-align: left;">
+                                    <input type="checkbox" name="terms" id="terms" required style="width: 5%;">
+                                    <label for="terms">Agree with Terms and Conditions*</label>
+                                </div>
+                                </div>
+                                <br>
+                                <input type="submit" value="Submit Paper">
+                            </form>
+                            <div id="myResponseMessage"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/submit-paper-online.html">Submit Paper Online </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/author-guidlinnes.html">Author Guidelines </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/assests/forms/Paper Template Format.pdf" target="_blank">Paper Template Format </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/assests/forms/Undertaking by author form.pdf" target="_blank">Undertaking Form </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-head">
+                        <a href="/assests/forms/Copyright Agrement Form.pdf" target="_blank">Copyright Form </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="site-footer">
+            <div class="site-footer-inner">
+                <div class="footer-logo">
+                    <img src="assests/image/logo/logo.png" alt="institute-of-science-and-technology-development-logo">
+                    <p style="font-size: 18px; color: #EC343D; font-weight: 900;">Procedure International Journal of Science and Technology</p>
+                    <p style="font-size: 15px; margin-top: -10px;">International Open Access, Peer-reviewed & Refereed Journal | ISSN:</p>
+                    <p style="font-size: 14px; margin-top: -10px;">(Multidisciplinary, Monthly, Multilanguage)</p>
+                </div>
+    
+                <div class="footer-menu">
+                    <div class="footer-menu-list">
+                        <h3>USEFUL LINKS</h3>
+                        <ul class="first-menu">
+                            <li><a href="https://www.pijst.com/">Home</a></li>
+                            <li><a href="/call-for-paper.html">Call For Paper</a></li>
+                            <li><a href="/submit-paper-online.html">Submit Paper Online</a></li>
+                            <li><a href="/research-area.html">Research Area</a></li>
+                            <li><a href="/publication-fee.html">Publication Fee</a></li>
+                            <li><a href="/assests/forms/Paper Template Format.pdf" target="_blank">paper template Format</a></li>
+                            <li><a href="/current-issue-archives.html">Current Issue-Archives</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="footer-getintouch">
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Institute of science and Technology Development, 173/3, Aamghat colony Ghazipur, UP-2331001</a></li>
+                        <li><a href="mailto:editor@pijst.com"><i class="fa-solid fa-envelope"></i> editor@pijst.com</a></li>
+                        <li><a href="tel:+91-7599991323"><i class="fa-solid fa-phone"></i>+91-7599991323</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+            <div class="site-copyright">
+                <div class="copy">
+                    <p style="margin: 0;">© PIJST, All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000);
+}
+</script>
+<script src="https://kit.fontawesome.com/b80036d9f0.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
